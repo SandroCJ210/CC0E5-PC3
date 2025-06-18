@@ -18,13 +18,16 @@ Contiene una implementación completa de un **VP-Tree** optimizado con una heur�
 
 ##### Uso:
 ```python
-from vptree import build_vptree, search_knn, region_search
+from vptree import VPTree
 ```
 ---
 
 #### `test_vptree.py`
 
 Contiene pruebas automatizadas para validar la implementación del **VP-Tree**, comparando los resultados contra métodos de fuerza bruta.
+
+#### Informe.ipynb
+Contiene una explicación detallada de la implementación hecha, además de contener los scripts de profiling para poder analizar el tiempo de ejecución del árbol y sus métodos.
 
 ##### Pruebas implementadas:
 
